@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: 53-Spring-Security-Login-Register-01
+  datasource:
+    url: jdbc:mysql://localhost:3306/security
+    password: Kunal@123
+    username: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
